@@ -1,0 +1,170 @@
+body{
+  padding: 0px;
+  margin: Opx;
+  background-color: black;
+}
+
+article{
+  margin: 5%;
+  background-color: white;
+  border-radius: 3px;
+  padding: 2%;
+}
+
+article .title{
+  font-family: cursive;
+  font-size: 22px;
+  margin-top: 100px;
+}
+
+article .description{
+  font-size: 18px;
+}
+
+article .majdate{
+  font-size: 12px;
+  color: grey;
+}
+
+article .pubdate{
+  font-size: 12px;
+  color: green;
+}
+
+article .like{
+  font-size: 15px;
+  color: red;
+  float: right;
+}
+
+article .preference{
+  font-size: 15px;
+  color : red;
+  float: left;
+}
+
+
+
+article .numero{
+  color: black;
+  float: left;
+}
+
+article a{
+  text-decoration: none;
+  color: blue;
+  transition: color 0.3s;
+}
+
+article .preference:hover, a:hover{
+  color: red;
+  border-bottom: 1px solid red;
+  transition: color 0.3s;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: black;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.form_sing{
+  margin-top: 100px;
+  color: white;
+}
+
+.title_sing{
+  text-align: center;
+}
+
+button, input {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+input[type="password" i] {
+    -webkit-text-security: disc !important;
+}
+user agent stylesheet
+input {
+    padding: 1px 0px;
+}
+user agent stylesheet
+input {
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+user agent stylesheet
+input, textarea, select{
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+user agent stylesheet
+input, textarea, select,  meter, progress {
+    -webkit-writing-mode: horizontal-tb !important;
+}
+
+
+.index_title{
+  text-align: center;
+  color: white;
+  font-size: 25;
+  margin-top: 20px;
+}
