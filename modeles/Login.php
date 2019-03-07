@@ -9,14 +9,14 @@ global $bdd;
 	 if($reponse=$requete->fetch())
 	 {
 		   $_SESSION['connect']=true;
-	     $id_u=$reponse['id_u'];
+	     $id_u = $reponse['id_u'];
 	     //$_SESSION['level']=$reponse['level'];
 		 header("location:?p=Flux");
 	 }
 	 else
 	 {
      $_SESSION['connect']=false;
-		 echo"<p class='red'>Adress mail ou mot de passe incorrect</p>";
+		 echo"<p class='danger'>Adress mail ou mot de passe incorrect</p>";
 	 }
 	}
 ?>

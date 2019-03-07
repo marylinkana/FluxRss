@@ -53,7 +53,7 @@
             <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" >Search</button>
           </form>
-          <?php if (isset($_SESSION['connect'])){ ?>
+          <?php if (isset($_SESSION['connect']) & $_SESSION['connect']){ ?>
             <a href="?p=Logout" class="btn btn-outline-success my-2 my-sm-0">
               <span class="glyphicon glyphicon-log-out">Logout</span>
             </a>

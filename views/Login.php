@@ -11,6 +11,6 @@
       </label>
     </div>
   	<button class="btn btn-lg btn-primary btn-block" type="submit" value="submit" name="submit">valider</button><br>
-  	<a href="viewInscription.php">Pas encore inscrit?</a>
+  	<a href="?p=Inscription">Pas encore inscrit?</a>
   </form>
 </div>
